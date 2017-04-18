@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Angular">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clays' Page</title>
+
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+            <link rel="stylesheet" href="styles.css">
+            <script src="scripts.js"></script>
+            <base href="/">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">My Github</span>
+                    <span class="icon-bar">Pluralsight</span>
+                    <span class="icon-bar">codecademy</span>
+                    <span class="icon-bar">Volunteer in Birmingham</span>
+                    </button>
+                    <a class="navbar-brand" href="#">Cool Coding Sites ></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="https://github.com/WeLoveDogs15">My Github</a></li>
+                    <li><a href="https://www.pluralsight.com">Pluralsight </a></li>
+                    <li><a href="https://www.codecademy.com/learn/make-a-website">codecademy</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Volunteer in Birmingham <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="http://www.handsonbirmingham.org/">Hands On Birmingham</a></li>
+                            <li><a href="http://twobytworescue.com/">Two by Two Rescue</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 title">
+                <hr>
+                <h1 class="centered" id="color"><a href="https://www.linkedin.com/in/clayton-anderson-95a25023/">Hi, I'm Clay</a></h1>
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 divLeft">
+                <div class="center">
+                    <ul><h4>Let me introduce myself...</h4>
+                        <hr>
+                        <li>Love to learn coding</li>
+                        <li>Look for ways to be constructive</li>
+                        <li>Dog lover</li>
+                        <li>Have been skydiving</li>
+                        <li>Explorer of new areas</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6 divCenter">
+
+            </div>
+            <div class="col-sm-3 divRight">
+                <div class="right">
+                    <div>
+                        <h4>Guess the number!</h4>
+                        <hr>
+                        <input ng-model="theNumber" placeholder="Make your guess"></input>
+                        <button type="button" class="btn">Guess</button>
+                        <h4 id="hint">Click for hint...</h5>
+                        <h5>It's between 12 and 18</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="row">
+
+                        <div class="col-sm-3 divLearn">
+                            <h4>Things I'm working on</h4>
+                            <hr>
+                            <p>I'm almost finished with a full stack development class at Covalence. The next steps
+                                are taking what I've learned and applying it to personal projects to showcase for employers. One
+                                thing I'd like to learn more about is setting up and running querys on MySQL.
+                            </p>
+                        </div>
+                        <div class="col-sm-1">
+                        </div>
+                        <div class="col-sm-4 divTravel">
+                          <h4>Best place I've visited is <a href="http://bigskyresort.com/#sm.000006rv83hun4dlmqyrn2878samg"> Big Sky, MT</a></h4>
+                            <hr>
+                            <p>Anyone who wishes to visit the Midwest should check out Big Sky, MT. I've had the pleasure of visiting
+                                twice and the scenary is like nothing I've ever seen. If you are an avid lover of the outdoors then it's impossible
+                                to not enjoy. The skiing is especially scenic! </p>
+                        </div>
+                        <div class="col-sm-1">
+                        </div>
+                        <div class="col-sm-3 divAspire">
+                            <h4>Contributions</h4>
+                            <hr>
+                            <p>
+                                For any employers seeking a new developer I think my skills and ambition would be of interest to you. I have applicable skills
+                                covering front end and back end, or database, programming. I'm motivated to learn more and look for answers, but also humble enough
+                                to ask for help if needed. I work well with others and know how to build relationships.
+                            </p>
+                        </div>
+                    </div>
+</body>
+
+</html>
